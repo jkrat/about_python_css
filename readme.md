@@ -1,3 +1,3 @@
-Excursion website practice
+About Python website practice
 
 built with html and css
