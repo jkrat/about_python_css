@@ -3,27 +3,86 @@
 <head>
     <meta charset="utf-8" />
     <title>About Python</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="./style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="resources/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <div></div>
-            <div></div>
+            <img src="./resources/python.png" alt="logo">
+            <div>
+                <p>Text Size: <span class="yellow">Normal </span><span class="black"> | </span><span class="yellow">Large</span></p>
+                <div id="search">
+                    <input type="text" placeholder="Search..">
+                    <button>GO</button>
+                </div>
+
+            </div>
         </div>
         <div class="nav-bar">
             <ul>
-                <li>About</li>
-                <li>Downloads</li>
-                <li>Documentation</li>
-                <li>Community</li>
-                <li>News</li>
-                <li>Events</li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Downloads</a></li>
+                <li><a href="#">Documentation</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Events</a></li>
             </ul>
         </div>
-        <div class="main"></div>
-        <div class="info"></div>
-        <div class="footer"></div>
+        <div class="main">
+            <div id="links">
+                <ul>
+                    <li><a href="#">Docs</a></li>
+                    <li><a href="#">Audio/Visual Talks</a></li>
+                    <li><a href="#">Beginner's Guide</a></li>
+                    <li><a href="#">Developer's Guide</a></li>
+                    <li><a href="#">PEP Index</a></li>
+                    <li><a href="#">Python Books</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul> 
+            </div>
+            <div id="zen">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <ul id="quote">
+                    <li>Beautiful is better than ugly;</li>
+                    <li>Explicit is beter than implicit;</li>
+                    <li>Simple is better than complex;</li>
+                    <li>Complex is better than complicated;</li>
+                    <li>Readability coutns;</li>
+                </ul>
+                <p>The Zen of Python</p>
+            </div>
+        </div>
+        <div id="info">
+            <div>
+                <h4>Getting Started</h4>
+                <p>Python can be easy to pick up whether you're a first time programmer or you're experienced with other languages.  The following pages are a useful first step to get on your way writing programs with Python!</p>
+                <ul>
+                    <li>Beginner's Guide, Programmers</li>
+                    <li>Beginner's Guide, Non-programmers</li>
+                    <li>Code sample and snippits for Beginners</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Applications</h4>
+                <p>The <span>Python Package Index (PHP)</span> hosts thousands of third-party modules for Python. Both Python's standard library and the community-contributed modules allow for endless possibilities.</p>
+                <ul>
+                    <li>Web and Internet Development</li>
+                    <li>Databse Access</li>
+                    <li>Desktop GUIs</li>
+                    <li>Network Programming</li>
+                    <li>Software and Game Dvelopment</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            <ul>
+                <li>Help and General Contact</li>
+                <li>Diversity initiatives</li>
+                <li>Submit Website Bugs</li>
+            </ul>
+            <p>Copyright 2001-2016.</p>
+        </div>
     </div>
 </body>
 </html>
