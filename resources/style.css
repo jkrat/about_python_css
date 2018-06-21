@@ -153,10 +153,11 @@
 }
 #info span {
     color:#3880AA;
+    font-size: .7rem;
 }
 .footer {
     width: 970px;
-    padding-top: 40px;
+    padding: 40px 0px 10px 0px;
     color: rgb(189, 178, 178);
     text-align: center;
 }
@@ -170,5 +171,4 @@
 }
 .footer p {
     font-size: .5rem;
-    margin-bottom: 5px;
 }
